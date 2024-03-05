@@ -10,5 +10,7 @@ public class TestMod {
 
     public TestMod(IEventBus modBus) {
         ModItems.ITEMS.register(modBus);
+
+        TestConfig.registerConfig();
     }
 }
