@@ -17,6 +17,7 @@ public class DataGenerators {
         PackOutput output = generator.getPackOutput();
         ExistingFileHelper helper = event.getExistingFileHelper();
 
+        generator.addProvider(event.includeClient(), new TestEnUsLangProvider(output));
         generator.addProvider(event.includeClient(), new TestItemModelProvider(output, helper));
     }
 }
