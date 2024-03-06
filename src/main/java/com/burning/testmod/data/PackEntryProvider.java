@@ -1,7 +1,9 @@
 package com.burning.testmod.data;
 
 import com.burning.testmod.TestMod;
+import com.burning.testmod.data.builtin.BiomeData;
 import com.burning.testmod.data.builtin.DimensionData;
+import com.burning.testmod.data.builtin.NoiseData;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
@@ -18,6 +20,8 @@ public class PackEntryProvider extends DatapackBuiltinEntriesProvider {
 
     private static RegistrySetBuilder builder() {
         return new RegistrySetBuilder()
+                .add(Registries.BIOME, BiomeData::registerBiomes)
+                .add(Registries.NOISE_SETTINGS, NoiseData::registerNoiseSettings)
                 .add(Registries.DIMENSION_TYPE, DimensionData::registerDimensionType)
                 .add(Registries.LEVEL_STEM, DimensionData::registerLevelStem)
                 ;

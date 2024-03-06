@@ -6,6 +6,6 @@
       "type": "minecraft:fixed",
       "biome": "minecraft:cherry_grove"
     },
-    "settings": "minecraft:overworld"
+    "settings": "testmod:test_world"
   }
 }

@@ -1,3 +1,5 @@
-// 1.20.4	2024-03-06T14:13:40.8255996	Registries
-6877ac1e408ab115845cc65ad9704f7e51902b5d data/testmod/dimension/test_world.json
+// 1.20.4	2024-03-06T15:08:51.0660876	Registries
+be67c8a676d93cf7328cb9975ea060b6e0006f46 data/testmod/dimension/test_world.json
 75fd919deada4825236a7e1d58d7307f23a516a2 data/testmod/dimension_type/test_world.json
+f5ab4d48de8bf9411b33c1fb2957bb46f4b36cc8 data/testmod/worldgen/biome/test_biome.json
+3a51e5bddd08a05673917c106f360291d3aef86f data/testmod/worldgen/noise_settings/test_world.json
