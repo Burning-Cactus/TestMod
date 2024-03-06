@@ -5,8 +5,8 @@ import com.burning.testmod.items.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
-public class TestEnUsLangProvider extends LanguageProvider {
-    public TestEnUsLangProvider(PackOutput output) {
+public class EnUsLangProvider extends LanguageProvider {
+    public EnUsLangProvider(PackOutput output) {
         super(output, TestMod.MOD_ID, "en_us");
     }
 

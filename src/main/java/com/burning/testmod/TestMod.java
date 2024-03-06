@@ -1,6 +1,7 @@
 package com.burning.testmod;
 
 import com.burning.testmod.items.ModItems;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
@@ -12,5 +13,9 @@ public class TestMod {
         ModItems.ITEMS.register(modBus);
 
         TestConfig.registerConfig();
+    }
+
+    public static ResourceLocation prefix(String path) {
+        return new ResourceLocation(MOD_ID, path);
     }
 }
